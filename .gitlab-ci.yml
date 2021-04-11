@@ -13,9 +13,8 @@ build:
   - docker push awserv/firefox:14.02
 # special directory
   - only:
-     changes:
-     - refs:
+    refs:
        - master
-     changes:
+    changes:
        - app/
        - build/
