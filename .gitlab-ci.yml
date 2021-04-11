@@ -8,4 +8,6 @@ build:
  stage: build
  script:
   - docker build -t send .
-
+  - docker tag send awserv/firefox:14.02
+  - docker login -u "awserv" -p "$DOCKER_HUB"
+  - docker push awserv/firefox:14.02
