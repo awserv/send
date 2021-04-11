@@ -11,10 +11,9 @@ build:
   - docker tag send awserv/firefox:14.02
   - docker login -u "awserv" -p "$DOCKER_HUB"
   - docker push awserv/firefox:14.02
-# special directory
   - only:
-    refs:
-       - master
+#    refs:
+#     - master
     changes:
-       - app/
-       - build/
+     - app/
+     - build/
