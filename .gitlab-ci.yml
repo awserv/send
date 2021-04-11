@@ -11,9 +11,6 @@ build:
   - docker tag send awserv/firefox:14.02
   - docker login -u "awserv" -p "$DOCKER_HUB"
   - docker push awserv/firefox:14.02
- stage: test
  only:
-   - paths:
-      - "^app/.*"
-#   - changes:
-#      - app/
+    changes:
+     - dockerfile
