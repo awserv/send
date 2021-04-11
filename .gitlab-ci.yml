@@ -14,5 +14,6 @@ build:
  only:
     changes:
      - dockerfile
-
+     - add/
+     - README.md
 #- docker run sent /send/
