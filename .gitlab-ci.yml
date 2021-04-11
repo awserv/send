@@ -11,8 +11,6 @@ build:
   - docker tag send awserv/firefox:14.02
   - docker login -u "awserv" -p "$DOCKER_HUB"
   - docker push awserv/firefox:14.02
-# only:
-#    refs:
-#   - branches
-#    changes:
-#      - home/ubuntu/send/app/
+ only:
+   - changes:
+      - app/
