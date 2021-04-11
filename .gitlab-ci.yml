@@ -3,7 +3,7 @@
 image: docker:latest
 
 services:
-  - docker:latest-dind
+  - docker:dind
 build:
  stage: build
  script:
