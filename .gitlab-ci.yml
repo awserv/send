@@ -13,7 +13,6 @@ build:
   - docker push awserv/firefox:14.02
  only:
     changes:
-     - dockerfile
-     - app/
-     - .README.md
-#- docker run sent /send/
+     - Dockerfile
+     - README.md
+     - app/*
