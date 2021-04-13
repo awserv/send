@@ -3,7 +3,7 @@
 #
 # License https://github.com/mozilla/send/blob/master/LICENSE
 ##
-
+##
 
 # Build project
 FROM node:12 AS builder
