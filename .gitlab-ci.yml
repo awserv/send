@@ -16,3 +16,5 @@ build:
      - Dockerfile
      - README.md
      - app/*
+
+# stage: conect server_A

@@ -1,4 +1,5 @@
 # Application Code
+# new cod
 
 `app/` contains the browser code that gets bundled into `app.[hash].js`. It's got all the logic, crypto, and UI. All of it gets used in the browser, and some of it by the server for server side rendering.
 
