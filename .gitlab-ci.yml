@@ -13,6 +13,7 @@ build:
   - docker push awserv/firefox:14.02
  only:
     changes:
+     - .gitlab-ci.yml
      - Dockerfile
      - README.md
      - app/*
