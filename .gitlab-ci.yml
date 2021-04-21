@@ -25,4 +25,4 @@ before_script:
  - echo "${SSH_PRIVATE_KEY}" | tr -d '\r' | ssh-add -
  - mkdir -p ~/.ssh
  - chmod 700 ~/.ssh
- - ssh -o StrictHostKeyChecking=no ubuntu@52.58.250.140 "cd ~; echo 'start cicd' >> touch cicd.txt
+ - ssh -o StrictHostKeyChecking=no ubuntu@52.58.250.140 "cd ~; echo 'start cicd' >> gitlab.txt
